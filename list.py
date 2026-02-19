@@ -11,4 +11,14 @@ print(areas)
 x = areas[:]
 x[1] = 10
 print(x)
-print(areas)
+#slicing a list creates a copy of the list, so modifying x does not affect areas
+print(areas[1:4])
+
+y = [[1,2,3],
+     ["mom","dad","brother"],
+     [7,True,"hello"]]
+print(y[0][1])
+print(y)
+#manipulating a nested list
+y[1][1] = "sister"
+print(y)
