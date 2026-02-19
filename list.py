@@ -8,3 +8,7 @@ print(areas)
 
 areas.append(6)
 print(areas)
+x = areas[:]
+x[1] = 10
+print(x)
+print(areas)
