@@ -38,3 +38,8 @@ print(Age)
 #the colon means all the rows and the 0 means the first column
 Height = np_baseball[:,1]
 print(Height)
+
+update = np_baseball + 10
+print(update)
+convert = np.array([2,0.243])
+print(convert*np_baseball)
