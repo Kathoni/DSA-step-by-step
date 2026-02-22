@@ -33,3 +33,8 @@ print(np_baseball[3][0])
 print(np_baseball[3][1])
 print(np_baseball[4][0])
 print(np_baseball[4][1])
+Age = np_baseball[:,0]
+print(Age)
+#the colon means all the rows and the 0 means the first column
+Height = np_baseball[:,1]
+print(Height)
