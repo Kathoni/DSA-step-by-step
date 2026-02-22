@@ -11,3 +11,9 @@ print(full_sorted)
 first.index(13)
 print(first.index(13))
 
+second.append(21)
+print(second)
+
+second.reverse()
+print(second)
+
