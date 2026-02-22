@@ -43,3 +43,5 @@ update = np_baseball + 10
 print(update)
 convert = np.array([2,0.243])
 print(convert*np_baseball)
+#calculates mean of every raws values and the first colmn
+print(np.mean(np_baseball[:,0]))
