@@ -17,3 +17,5 @@ print(second)
 second.reverse()
 print(second)
 
+#__init__() : This is a special method Python calls automatically when you create an object. We use it to initialize the object's data.
+#self :refers to the particular object being used.
